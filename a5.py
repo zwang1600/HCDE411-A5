@@ -22,6 +22,10 @@ for item in lst:
         cleaned_lst.append(item)
 
 print(len(cleaned_lst)) # should be 49875 rows
+outputfilename = "cleaned_dataset.csv"
+f = open(outputfilename,'w')
+for item in cleaned_lst:
+    f.write("%s, %s, %s, %s, %s\n"%(item["name"], item["city"], item["state"], item["stars"], item["categories"]))
 
 # Group by state
 # The dict should be like this:
@@ -58,8 +62,17 @@ for key in by_state_dictionary:
         sum_of_rating_by_state[key] += entry
 
 # Output to file
-outputfilename = "average_star_by_business.csv"
+outputfilename = "average_star_by_state.csv"
 f = open(outputfilename,'w')
 for state in sum_of_rating_by_state:
-    f.write("\"%s\", %f\n"%(state, sum_of_rating_by_state[state] / len(by_state_dictionary[state])))
+    f.write("%s, %f\n"%(state, sum_of_rating_by_state[state] / len(by_state_dictionary[state])))
 f.close()
+
+
+by_review_count = sorted(cleaned_lst,key=lambda item:item["review_count"],reverse=True)
+print(by_review_count[0]["review_count"])
+print(by_review_count[1]["review_count"])
+print(by_review_count[2]["review_count"])
+print(by_review_count[3]["review_count"])
+print(by_review_count[4]["review_count"])
+print(by_review_count[5]["review_count"])
