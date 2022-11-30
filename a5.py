@@ -22,9 +22,49 @@ for item in lst:
         cleaned_lst.append(item)
 
 print(len(cleaned_lst)) # should be 49875 rows
+
+cleaned_lst2 = []
+for item in cleaned_lst:
+    if 'Chinese' in item['categories']:
+        item['categories'] = 'Chinese'
+        cleaned_lst2.append(item)
+    elif 'Japanese' in item['categories']:
+        item['categories'] = 'Japanese'
+        cleaned_lst2.append(item)
+    elif 'Italian' in item['categories']:
+        item['categories'] = 'Italian'
+        cleaned_lst2.append(item)
+    elif 'Fast Food' in item['categories']:
+        item['categories'] = 'Fast Food'
+        cleaned_lst2.append(item)
+    elif 'Vietnamese' in item['categories']:
+        item['categories'] = 'Vietnamese'
+        cleaned_lst2.append(item)
+    elif 'Thai' in item['categories']:
+        item['categories'] = 'Thai'
+        cleaned_lst2.append(item)
+    elif 'Mexican' in item['categories']:
+        item['categories'] = 'Mexican'
+        cleaned_lst2.append(item)
+    elif 'Caribbean' in item['categories']:
+        item['categories'] = 'Caribbean'
+        cleaned_lst2.append(item)
+    elif 'Cajun/Creole' in item['categories']:
+        item['categories'] = 'Cajun/Creole'
+        cleaned_lst2.append(item)
+    elif 'Mediterranean' in item['categories']:
+        item['categories'] = 'Mediterranean'
+        cleaned_lst2.append(item)
+    elif 'American' in item['categories']:
+        item['categories'] = 'American'
+        cleaned_lst2.append(item)
+
+print(len(cleaned_lst2))
+
 outputfilename = "cleaned_dataset.csv"
 f = open(outputfilename,'w')
-for item in cleaned_lst:
+f.write("Name, City, State, Stars, Categories\n")
+for item in cleaned_lst2:
     f.write("%s, %s, %s, %s, %s\n"%(item["name"], item["city"], item["state"], item["stars"], item["categories"]))
 
 # Group by state
@@ -69,10 +109,12 @@ for state in sum_of_rating_by_state:
 f.close()
 
 
-by_review_count = sorted(cleaned_lst,key=lambda item:item["review_count"],reverse=True)
-print(by_review_count[0]["review_count"])
-print(by_review_count[1]["review_count"])
-print(by_review_count[2]["review_count"])
-print(by_review_count[3]["review_count"])
-print(by_review_count[4]["review_count"])
-print(by_review_count[5]["review_count"])
+# by_review_count = sorted(cleaned_lst,key=lambda item:item["review_count"],reverse=True)
+# print(by_review_count[0]["review_count"])
+# print(by_review_count[1]["review_count"])
+# print(by_review_count[2]["review_count"])
+# print(by_review_count[3]["review_count"])
+# print(by_review_count[4]["review_count"])
+# print(by_review_count[5]["review_count"])
+
+
