@@ -23,6 +23,19 @@ for item in lst:
 
 print(len(cleaned_lst)) # should be 49875 rows
 
+# CLean data so that the "categories" column only include one of the following:
+# Japanese
+# Chinese
+# Italian
+# Fast food
+# Vietnamese
+# Thai
+# Mexican
+# Caribbean
+# Cajun/Creole
+# Mediterranean
+# American (Traditional)
+
 cleaned_lst2 = []
 for item in cleaned_lst:
     if 'Chinese' in item['categories']:
@@ -59,7 +72,7 @@ for item in cleaned_lst:
         item['categories'] = 'American'
         cleaned_lst2.append(item)
 
-print(len(cleaned_lst2))
+print(len(cleaned_lst2)) # should be 31619 rows
 
 outputfilename = "cleaned_dataset.csv"
 f = open(outputfilename,'w')
@@ -108,13 +121,18 @@ for state in sum_of_rating_by_state:
     f.write("%s, %f\n"%(state, sum_of_rating_by_state[state] / len(by_state_dictionary[state])))
 f.close()
 
+# Calculate the number of 4 star resturants by state
+num_of_4_stars_by_state = {}
+for key in by_state_dictionary:
+    num_of_4_stars_by_state[key] = 0
+    for entry in by_state_dictionary[key]:
+        if (entry >= 4):
+            num_of_4_stars_by_state[key]+=1
 
-# by_review_count = sorted(cleaned_lst,key=lambda item:item["review_count"],reverse=True)
-# print(by_review_count[0]["review_count"])
-# print(by_review_count[1]["review_count"])
-# print(by_review_count[2]["review_count"])
-# print(by_review_count[3]["review_count"])
-# print(by_review_count[4]["review_count"])
-# print(by_review_count[5]["review_count"])
-
-
+# Output to file
+outputfilename = "num_of_4_stars_by_state.csv"
+f = open(outputfilename,'w')
+f.write("State, Count\n")
+for state in num_of_4_stars_by_state:
+    f.write("%s, %d\n"%(state, num_of_4_stars_by_state[state]))
+f.close()
