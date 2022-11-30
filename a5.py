@@ -121,18 +121,27 @@ for state in sum_of_rating_by_state:
     f.write("%s, %f\n"%(state, sum_of_rating_by_state[state] / len(by_state_dictionary[state])))
 f.close()
 
-# Calculate the number of 4 star resturants by state
-num_of_4_stars_by_state = {}
+# Calculate the star count by state
+star_count_by_state = {}
 for key in by_state_dictionary:
-    num_of_4_stars_by_state[key] = 0
+    star_count_by_state[key] = {'1.0':0, '1.5':0, '2.0':0, '2.5':0, '3.0':0, '3.5':0, '4.0':0, '4.5':0, '5.0':0}
     for entry in by_state_dictionary[key]:
-        if (entry >= 4):
-            num_of_4_stars_by_state[key]+=1
+        star_count_by_state[key][str(entry)]+=1
 
 # Output to file
-outputfilename = "num_of_4_stars_by_state.csv"
+outputfilename = "num_of_stars_by_state.csv"
 f = open(outputfilename,'w')
-f.write("State, Count, Percentage\n")
-for state in num_of_4_stars_by_state:
-    f.write("%s, %d, %f\n"%(state, num_of_4_stars_by_state[state], num_of_4_stars_by_state[state] / len(by_state_dictionary[state])))
+f.write("State, Total_Rating, Rating_1, Rating_1.5, Rating_2, Rating_2.5, Rating_3, Rating_3.5, Rating_4, Rating_4.5, Rating_5,\n")
+for state in star_count_by_state:
+    f.write("%s, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d\n"%(state,
+    len(by_state_dictionary[state]),
+    star_count_by_state[state]['1.0'],
+    star_count_by_state[state]['1.5'],
+    star_count_by_state[state]['2.0'],
+    star_count_by_state[state]['2.5'],
+    star_count_by_state[state]['3.0'],
+    star_count_by_state[state]['3.5'],
+    star_count_by_state[state]['4.0'],
+    star_count_by_state[state]['4.5'],
+    star_count_by_state[state]['5.0']))
 f.close()
