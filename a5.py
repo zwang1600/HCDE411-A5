@@ -132,7 +132,7 @@ for key in by_state_dictionary:
 # Output to file
 outputfilename = "num_of_4_stars_by_state.csv"
 f = open(outputfilename,'w')
-f.write("State, Count\n")
+f.write("State, Count, Percentage\n")
 for state in num_of_4_stars_by_state:
-    f.write("%s, %d\n"%(state, num_of_4_stars_by_state[state]))
+    f.write("%s, %d, %f\n"%(state, num_of_4_stars_by_state[state], num_of_4_stars_by_state[state] / len(by_state_dictionary[state])))
 f.close()
