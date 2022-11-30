@@ -131,7 +131,7 @@ for key in by_state_dictionary:
 # Output to file
 outputfilename = "num_of_stars_by_state.csv"
 f = open(outputfilename,'w')
-f.write("State, Total_Rating, Rating_1, Rating_1.5, Rating_2, Rating_2.5, Rating_3, Rating_3.5, Rating_4, Rating_4.5, Rating_5,\n")
+f.write("State, Total_Rating, Rating_1, Rating_1.5, Rating_2, Rating_2.5, Rating_3, Rating_3.5, Rating_4, Rating_4.5, Rating_5\n")
 for state in star_count_by_state:
     f.write("%s, %d, %d, %d, %d, %d, %d, %d, %d, %d, %d\n"%(state,
     len(by_state_dictionary[state]),
