@@ -63,9 +63,9 @@ print(len(cleaned_lst2))
 
 outputfilename = "cleaned_dataset.csv"
 f = open(outputfilename,'w')
-f.write("Name, City, State, Stars, Categories\n")
+f.write("Name, City, State, Stars, Category, Review Count\n")
 for item in cleaned_lst2:
-    f.write("%s, %s, %s, %s, %s\n"%(item["name"], item["city"], item["state"], item["stars"], item["categories"]))
+    f.write("%s, %s, %s, %s, %s, %d\n"%(item["name"], item["city"], item["state"], item["stars"], item["categories"], item["review_count"]))
 
 # Group by state
 # The dict should be like this:
