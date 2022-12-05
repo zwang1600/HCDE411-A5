@@ -1,0 +1,144 @@
+State, Cuisine, Rating_1, Rating_1.5, Rating_2, Rating_2.5, Rating_3, Rating_3.5, Rating_4, Rating_4.5, Rating_5
+TN, Fast Food, 17, 130, 152, 94, 84, 68, 39, 21, 11
+TN, Japanese, 0, 0, 1, 10, 18, 33, 50, 20, 2
+TN, American, 0, 15, 56, 80, 167, 251, 288, 133, 20
+TN, Mexican, 0, 0, 5, 21, 61, 120, 108, 82, 23
+TN, Italian, 6, 18, 15, 35, 40, 39, 70, 28, 5
+TN, Caribbean, 0, 0, 0, 0, 1, 7, 9, 8, 4
+TN, Mediterranean, 1, 0, 3, 8, 5, 33, 34, 28, 3
+TN, Chinese, 0, 4, 12, 32, 36, 41, 36, 14, 1
+TN, Cajun/Creole, 0, 0, 0, 6, 5, 17, 22, 15, 1
+TN, Vietnamese, 0, 0, 0, 0, 2, 7, 10, 10, 1
+TN, Thai, 0, 0, 1, 3, 4, 14, 26, 17, 2
+MO, Italian, 2, 9, 17, 27, 52, 94, 97, 54, 3
+MO, American, 0, 7, 28, 92, 190, 266, 245, 121, 14
+MO, Fast Food, 23, 117, 139, 124, 82, 88, 46, 22, 4
+MO, Mediterranean, 0, 2, 0, 1, 4, 17, 33, 28, 7
+MO, Mexican, 0, 0, 4, 12, 37, 80, 67, 31, 13
+MO, Chinese, 0, 2, 16, 32, 58, 93, 72, 19, 3
+MO, Caribbean, 0, 0, 0, 0, 1, 3, 7, 4, 1
+MO, Japanese, 0, 0, 1, 4, 13, 29, 31, 12, 3
+MO, Cajun/Creole, 0, 1, 0, 0, 6, 20, 11, 8, 2
+MO, Vietnamese, 0, 0, 0, 2, 3, 7, 10, 11, 1
+MO, Thai, 0, 0, 0, 2, 2, 11, 10, 13, 2
+FL, Vietnamese, 0, 0, 1, 3, 4, 15, 45, 27, 2
+FL, Italian, 4, 20, 35, 70, 93, 166, 234, 111, 10
+FL, American, 1, 10, 40, 185, 310, 523, 534, 293, 42
+FL, Mediterranean, 0, 0, 0, 6, 13, 38, 59, 53, 14
+FL, Fast Food, 16, 152, 237, 191, 153, 121, 84, 46, 8
+FL, Japanese, 0, 1, 3, 9, 25, 53, 90, 54, 7
+FL, Mexican, 0, 4, 9, 39, 68, 134, 163, 129, 24
+FL, Thai, 0, 0, 1, 3, 7, 29, 59, 59, 3
+FL, Caribbean, 0, 0, 4, 2, 23, 43, 48, 45, 13
+FL, Chinese, 2, 5, 20, 50, 87, 139, 84, 31, 1
+FL, Cajun/Creole, 0, 0, 0, 2, 5, 19, 23, 14, 1
+IN, American, 0, 6, 38, 83, 147, 202, 280, 111, 10
+IN, Japanese, 0, 0, 0, 5, 15, 19, 31, 23, 3
+IN, Mexican, 0, 1, 4, 12, 30, 114, 129, 92, 20
+IN, Caribbean, 0, 0, 0, 0, 1, 2, 7, 11, 3
+IN, Thai, 0, 0, 0, 1, 0, 2, 23, 21, 1
+IN, Italian, 0, 19, 14, 17, 38, 62, 51, 35, 4
+IN, Fast Food, 16, 112, 164, 151, 113, 89, 55, 24, 2
+IN, Chinese, 0, 2, 12, 26, 39, 61, 59, 18, 1
+IN, Mediterranean, 0, 0, 0, 1, 5, 12, 26, 21, 1
+IN, Vietnamese, 0, 1, 0, 0, 2, 3, 12, 5, 1
+IN, Cajun/Creole, 0, 1, 0, 2, 2, 7, 17, 13, 0
+PA, Japanese, 0, 1, 4, 17, 27, 101, 122, 89, 14
+PA, Italian, 5, 27, 50, 114, 219, 391, 391, 196, 31
+PA, American, 0, 14, 106, 265, 454, 642, 648, 292, 27
+PA, Chinese, 0, 9, 38, 90, 205, 282, 214, 72, 8
+PA, Fast Food, 29, 143, 184, 140, 110, 118, 84, 39, 4
+PA, Caribbean, 2, 0, 3, 7, 18, 36, 42, 23, 5
+PA, Cajun/Creole, 0, 0, 0, 5, 10, 20, 15, 7, 3
+PA, Mexican, 0, 0, 5, 34, 100, 133, 166, 118, 22
+PA, Thai, 0, 1, 0, 2, 11, 45, 53, 31, 5
+PA, Mediterranean, 0, 1, 3, 9, 27, 61, 82, 81, 18
+PA, Vietnamese, 0, 1, 2, 2, 14, 34, 74, 39, 7
+NV, Italian, 0, 3, 2, 11, 13, 23, 28, 13, 6
+NV, Fast Food, 2, 34, 52, 37, 31, 28, 21, 7, 0
+NV, American, 0, 1, 5, 31, 59, 77, 87, 50, 3
+NV, Mexican, 0, 0, 3, 13, 24, 45, 62, 53, 10
+NV, Chinese, 0, 0, 8, 18, 21, 32, 17, 10, 1
+NV, Japanese, 0, 0, 1, 1, 9, 14, 24, 6, 1
+NV, Vietnamese, 0, 1, 1, 0, 3, 6, 4, 1, 1
+NV, Thai, 0, 0, 0, 0, 2, 3, 12, 6, 0
+NV, Mediterranean, 0, 0, 0, 0, 2, 2, 7, 2, 3
+NV, Cajun/Creole, 0, 0, 0, 0, 2, 0, 2, 0, 0
+IL, Italian, 0, 4, 7, 11, 14, 21, 19, 8, 1
+IL, Japanese, 0, 0, 0, 1, 5, 2, 1, 4, 0
+IL, American, 0, 3, 11, 28, 46, 72, 57, 29, 2
+IL, Fast Food, 6, 48, 43, 46, 27, 19, 11, 8, 0
+IL, Mexican, 0, 0, 0, 4, 8, 22, 18, 18, 3
+IL, Chinese, 0, 0, 1, 5, 20, 11, 13, 8, 1
+IL, Thai, 0, 0, 0, 0, 1, 2, 4, 3, 0
+IL, Cajun/Creole, 0, 0, 0, 0, 2, 3, 2, 0, 0
+IL, Caribbean, 0, 0, 0, 0, 0, 0, 1, 0, 1
+IL, Mediterranean, 0, 0, 0, 2, 1, 0, 2, 0, 0
+AZ, Chinese, 0, 6, 12, 15, 32, 42, 40, 13, 0
+AZ, Italian, 1, 2, 9, 12, 34, 50, 45, 15, 2
+AZ, Mexican, 0, 5, 10, 38, 67, 110, 118, 85, 17
+AZ, Fast Food, 6, 44, 89, 71, 85, 97, 65, 19, 2
+AZ, American, 0, 4, 14, 62, 89, 139, 110, 40, 6
+AZ, Japanese, 0, 0, 0, 9, 9, 13, 25, 10, 0
+AZ, Mediterranean, 0, 0, 0, 2, 4, 9, 13, 15, 1
+AZ, Caribbean, 0, 0, 0, 0, 1, 3, 4, 3, 1
+AZ, Vietnamese, 0, 0, 0, 0, 3, 8, 11, 2, 0
+AZ, Cajun/Creole, 0, 0, 1, 0, 2, 3, 1, 2, 0
+AZ, Thai, 0, 0, 0, 3, 3, 2, 6, 2, 1
+NJ, American, 1, 6, 20, 58, 110, 130, 117, 59, 4
+NJ, Japanese, 0, 0, 0, 1, 6, 23, 41, 18, 0
+NJ, Italian, 3, 10, 15, 38, 90, 144, 162, 61, 11
+NJ, Chinese, 1, 1, 11, 33, 44, 91, 73, 26, 1
+NJ, Fast Food, 10, 44, 60, 55, 35, 39, 29, 9, 3
+NJ, Cajun/Creole, 0, 0, 0, 0, 4, 5, 5, 2, 0
+NJ, Mexican, 0, 1, 3, 9, 14, 37, 43, 30, 3
+NJ, Vietnamese, 0, 0, 0, 1, 1, 6, 14, 10, 1
+NJ, Caribbean, 0, 1, 1, 1, 8, 9, 15, 10, 0
+NJ, Mediterranean, 0, 0, 1, 3, 3, 9, 14, 14, 5
+NJ, Thai, 0, 0, 0, 1, 1, 5, 10, 10, 1
+LA, Cajun/Creole, 1, 5, 9, 19, 51, 121, 167, 81, 14
+LA, Italian, 4, 7, 13, 16, 26, 52, 72, 27, 4
+LA, American, 0, 4, 24, 54, 77, 127, 201, 124, 14
+LA, Mexican, 0, 1, 5, 10, 39, 57, 49, 28, 13
+LA, Fast Food, 19, 81, 72, 56, 32, 27, 17, 11, 1
+LA, Vietnamese, 0, 0, 0, 4, 5, 18, 33, 31, 2
+LA, Thai, 0, 0, 0, 1, 2, 10, 8, 9, 2
+LA, Caribbean, 0, 0, 0, 1, 0, 4, 14, 14, 4
+LA, Japanese, 0, 0, 1, 3, 9, 26, 27, 22, 1
+LA, Chinese, 1, 1, 6, 7, 36, 41, 44, 18, 0
+LA, Mediterranean, 0, 0, 1, 2, 7, 14, 27, 28, 3
+DE, Mexican, 0, 1, 2, 3, 10, 20, 19, 12, 4
+DE, Italian, 0, 1, 8, 6, 19, 20, 22, 9, 2
+DE, Vietnamese, 0, 0, 0, 0, 0, 2, 2, 3, 0
+DE, Japanese, 1, 0, 0, 1, 5, 3, 9, 4, 0
+DE, American, 0, 1, 12, 29, 41, 40, 45, 16, 0
+DE, Fast Food, 4, 11, 22, 13, 16, 10, 10, 4, 0
+DE, Caribbean, 1, 0, 0, 2, 1, 3, 7, 8, 3
+DE, Chinese, 0, 1, 2, 14, 23, 15, 13, 3, 0
+DE, Thai, 0, 0, 0, 1, 0, 4, 2, 1, 0
+DE, Cajun/Creole, 0, 0, 0, 0, 3, 3, 2, 1, 0
+DE, Mediterranean, 0, 0, 0, 0, 3, 8, 5, 3, 1
+CA, Mexican, 0, 0, 0, 3, 20, 35, 69, 37, 5
+CA, Chinese, 0, 0, 2, 8, 7, 18, 8, 5, 0
+CA, Italian, 0, 0, 3, 4, 8, 16, 40, 11, 1
+CA, Thai, 0, 0, 0, 0, 2, 6, 5, 3, 0
+CA, Fast Food, 0, 4, 10, 17, 10, 11, 9, 4, 0
+CA, American, 0, 0, 0, 12, 21, 72, 86, 45, 11
+CA, Vietnamese, 0, 0, 0, 0, 2, 3, 3, 0, 1
+CA, Japanese, 0, 1, 2, 2, 5, 11, 12, 9, 0
+CA, Mediterranean, 0, 0, 0, 0, 0, 5, 9, 6, 1
+CA, Cajun/Creole, 0, 0, 0, 0, 0, 1, 6, 1, 0
+CA, Caribbean, 0, 0, 0, 0, 0, 0, 0, 1, 0
+ID, American, 0, 0, 5, 29, 47, 71, 73, 37, 4
+ID, Fast Food, 1, 19, 47, 42, 33, 31, 22, 4, 1
+ID, Mexican, 0, 1, 3, 10, 14, 33, 29, 14, 8
+ID, Italian, 0, 2, 3, 9, 8, 12, 18, 19, 0
+ID, Mediterranean, 0, 0, 0, 0, 0, 1, 8, 7, 2
+ID, Chinese, 0, 0, 5, 10, 19, 17, 9, 2, 0
+ID, Vietnamese, 0, 0, 0, 2, 2, 6, 9, 4, 0
+ID, Caribbean, 0, 0, 0, 2, 0, 2, 0, 2, 1
+ID, Thai, 0, 0, 0, 0, 2, 6, 6, 2, 0
+ID, Japanese, 0, 0, 0, 0, 8, 12, 20, 5, 1
+ID, Cajun/Creole, 0, 0, 0, 0, 1, 2, 0, 1, 1
+NC, American, 0, 0, 1, 0, 0, 0, 0, 0, 0
+MT, American, 0, 0, 0, 0, 0, 0, 0, 0, 1
